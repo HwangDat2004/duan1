@@ -14,7 +14,7 @@
         </thead>
         <tbody>
         <?php foreach ($items as $key => $value){
-            extract($value);
+            extract($value); 
             ?>
                 <tr>
                     <td><?= $id ?></td>
